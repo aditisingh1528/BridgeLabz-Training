@@ -19,12 +19,13 @@ class StoreAndSum{
         }
 
         // Display numbers and calculate sum
-        Console.WriteLine("Entered numbers: ");
+        Console.Write("Entered numbers: ");
         for (int i = 0; i < index; i++){
-            Console.WriteLine(numbers[i]);
+            Console.Write(numbers[i] + " ");
             total += numbers[i];
         }
-
+		Console.WriteLine();
+		
         Console.WriteLine("Sum of all numbers = " + total);
     }
 }
