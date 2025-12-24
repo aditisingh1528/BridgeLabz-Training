@@ -35,14 +35,14 @@ public class OddEven{
 		//Printing the odd numbers
 		Console.WriteLine("Odd Numbers: ");
 		for(int i = 0; i < oddIndex; i++){
-			Console.WriteLine(odd[i] + " ");
+			Console.Write(odd[i] + " ");
 		}
 		
 		Console.WriteLine();
 		//Printing the even numbers
 		Console.WriteLine("Even Numbers: ");
 		for(int i = 0; i < evenIndex; i++){
-			Console.WriteLine(even[i] + " ");
+			Console.Write(even[i] + " ");
 		}
 	}
 }
