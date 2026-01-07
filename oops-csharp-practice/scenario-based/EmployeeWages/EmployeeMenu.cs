@@ -13,8 +13,8 @@ namespace EmployeeProject
 
         public void Start()
         {
-            // UC1
-            employeeService.CheckAttendance();
+            employeeService.CheckAttendance();      // UC1
+            employeeService.CalculateDailyWage();   // UC2
         }
     }
 }
