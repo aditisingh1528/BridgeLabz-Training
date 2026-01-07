@@ -17,10 +17,24 @@ namespace EmployeeProject
                 Console.WriteLine("Employee is Absent");
         }
 
-        // UC2: Calculate Daily Wage
+        // UC2 & UC3: Calculate Daily Wage (Full-Time / Part-Time)
         public void CalculateDailyWage()
         {
-            int dailyWage = Employee.EMP_RATE_PER_HOUR * Employee.FULL_DAY_HOUR;
+            int empType = random.Next(1, 3); // 1 = Part-Time, 2 = Full-Time
+            int empHours = 0;
+
+            if (empType == Employee.IS_FULL_TIME)
+            {
+                empHours = Employee.FULL_DAY_HOUR;
+                Console.WriteLine("Employee is Full-Time");
+            }
+            else if (empType == Employee.IS_PART_TIME)
+            {
+                empHours = Employee.PART_TIME_HOUR;
+                Console.WriteLine("Employee is Part-Time");
+            }
+
+            int dailyWage = empHours * Employee.EMP_RATE_PER_HOUR;
             Console.WriteLine("Daily Employee Wage: " + dailyWage);
         }
     }
