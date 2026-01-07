@@ -4,10 +4,9 @@ namespace EmployeeProject
 {
     public interface IEmployee
     {
-        // UC1
-        void CheckAttendance();
-
-        // UC2
-        void CalculateDailyWage();
+        void CheckAttendance();        // UC1
+        void CalculateDailyWage();     // UC2, UC3, UC4
+        void CalculateMonthlyWage();   // UC5
+        void CalculateWageTillCondition(); // UC6
     }
 }
