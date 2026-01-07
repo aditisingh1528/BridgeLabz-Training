@@ -13,8 +13,9 @@ namespace EmployeeProject
 
         public void Start()
         {
-            employeeService.CheckAttendance();      // UC1
-            employeeService.CalculateDailyWage();   // UC2
+            employeeService.CheckAttendance();        // UC1
+            employeeService.CalculateDailyWage();     // UC2, UC3, UC4
+            employeeService.CalculateMonthlyWage();  // UC5
         }
     }
 }
