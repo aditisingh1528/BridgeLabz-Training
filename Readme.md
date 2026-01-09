@@ -14,39 +14,31 @@ Each day documents the topics covered, concepts learned, and skills practiced. �
 
 
 
+
+
+
+
 📅 Day 1: December 17, 2025
 
-🔧 GitHub Setup \& Basics
+
+
+GitHub Repository Setup – Created repositories to track daily practice and project work.
+
+
+
+Folder Structure Organization – Organized Java and C# code into clear, structured folders.
+
+
+
+Git Initialization – Initialized local repositories using git init.
+
+
+
+Version Control Commands – Practiced add, commit, and push for code management
 
 
 
 
-
-Topics Covered:
-
-
-
-GitHub Repository Setup
-
-
-
-Folder Structure Organization
-
-
-
-What I Learned: 📚
-
-
-
-Setting up a GitHub repository for project tracking 🔄
-
-
-
-Creating and organizing folder structures for Java \& C# codebases 🗂️
-
-
-
-Using basic Git commands: init, add, commit, push 💻
 
 
 
@@ -54,45 +46,29 @@ Using basic Git commands: init, add, commit, push 💻
 
 📅 Day 2: December 18, 2025
 
-⚙️ Introduction to .NET \& C#
+
+
+.NET Framework Basics – Learned how .NET supports building and running C# applications.
+
+
+
+C# Syntax – Understood basic syntax structure and program flow in C#.
+
+
+
+Java vs C# Differences – Compared Main method, using statements, and Console I/O.
+
+
+
+Java to C# Conversion – Converted simple Java programs into C# equivalents.
+
+
+
+dotnet CLI – Built and ran C# programs using command-line tools.
 
 
 
 
-
-Topics Covered:
-
-
-
-.NET Framework
-
-
-
-C# Syntax
-
-
-
-Java to C# Conversion
-
-
-
-What I Learned: 📚
-
-
-
-Basics of the .NET ecosystem 🌐
-
-
-
-Key differences between Java and C# (Main method, using statements, Console I/O) 🔁
-
-
-
-Converting Java programs to C# equivalents 🔄
-
-
-
-Building and running C# programs using the dotnet CLI ▶️
 
 
 
@@ -100,41 +76,25 @@ Building and running C# programs using the dotnet CLI ▶️
 
 📅 Day 3: December 19, 2025
 
-💻 C# Fundamentals – Operators \& Data Types
+
+
+Operators – Used arithmetic, relational, and logical operators in programs.
+
+
+
+Data Types – Worked with different built-in data types like int, double, and char.
+
+
+
+Type Conversion – Practiced implicit and explicit type conversions.
+
+
+
+Expression Evaluation – Analyzed how operators work together in expressions.
 
 
 
 
-
-Topics Covered:
-
-
-
-Operators
-
-
-
-Data Types
-
-
-
-Type Conversion
-
-
-
-What I Learned: 📚
-
-
-
-Performing basic operations on variables ➕➖
-
-
-
-Understanding different data types and their conversions 🔄
-
-
-
-Reading and analyzing various operators
 
 
 
@@ -142,45 +102,29 @@ Reading and analyzing various operators
 
 📅 Day 4: December 22, 2025
 
-🔁 C# Control Flow Statements
+
+
+Conditional Statements – Implemented if, else if, and else conditions.
+
+
+
+Boolean Logic – Used logical operators with conditions.
+
+
+
+Loops – Practiced for and while loops for repeated execution.
+
+
+
+Loop Control – Applied break and continue to control loop flow.
+
+
+
+Switch Statements – Used switch for handling multiple conditions cleanly.
 
 
 
 
-
-Topics Covered:
-
-
-
-Conditional Statements
-
-
-
-Looping Statements
-
-
-
-What I Learned: 📚
-
-
-
-Working with boolean expressions and logical operators ✔️❌
-
-
-
-Implementing if, else if, and else conditions
-
-
-
-Using for and while loops 🔄
-
-
-
-Applying break and continue statements
-
-
-
-Using switch statements for multiple conditions 🔀
 
 
 
@@ -188,57 +132,29 @@ Using switch statements for multiple conditions 🔀
 
 📅 Day 5: December 23, 2025
 
-📦 C# Arrays \& Multidimensional Arrays
+
+
+Single-Dimensional Arrays – Created, initialized, and accessed array elements.
+
+
+
+Array Traversal – Used loops to iterate through arrays.
+
+
+
+Array Modification – Updated array values during runtime.
+
+
+
+Length Property – Used Length to determine array size.
+
+
+
+2D Arrays – Worked with matrix-style data using multidimensional arrays.
 
 
 
 
-
-Topics Covered:
-
-
-
-Single-Dimensional Arrays
-
-
-
-Multidimensional Arrays
-
-
-
-2D Arrays (Matrix)
-
-
-
-What I Learned: 📚
-
-
-
-Creating and initializing arrays
-
-
-
-Accessing array elements
-
-
-
-Traversing arrays using for loops 🔁
-
-
-
-Modifying array elements ✏️
-
-
-
-Using the Length property of arrays
-
-
-
-Working with multidimensional and 2D arrays
-
-
-
-Accessing elements, finding size, and understanding matrix structure
 
 
 
@@ -246,97 +162,29 @@ Accessing elements, finding size, and understanding matrix structure
 
 📅 Day 6: December 24, 2025
 
-🧩 Methods \& Standard Library in C#
 
 
+User-Defined Methods – Created reusable methods to reduce code repetition.
 
 
 
-Topics Covered:
+Method Parameters \& Return Values – Passed inputs and returned results.
 
 
 
-User-Defined Methods
+Recursive Methods – Implemented recursion for repeated logic.
 
 
 
-Using Methods Multiple Times
+Static Methods – Used static methods for utility-style logic.
 
 
 
-Making Methods More Dynamic
+System.Math Library – Performed calculations using built-in math functions.
 
 
 
-Recursive Methods
 
-
-
-Static Methods in C#
-
-
-
-.NET Standard Library Methods
-
-
-
-System.Math Class
-
-
-
-What I Learned: 📚
-
-
-
-Creating reusable user-defined methods 🔁
-
-
-
-Passing inputs and returning results from methods
-
-
-
-Writing recursive methods for repeated logic 🔂
-
-
-
-Understanding and using static methods
-
-
-
-Using built-in .NET library methods
-
-
-
-Performing mathematical operations using System.Math ➗✖️
-
-
-
-Coding Guidelines Followed: ✅
-
-
-
-Defined all values (inputs, fixed values, results) as variables
-
-
-
-Followed proper naming conventions:
-
-
-
-Variables → camelCase
-
-
-
-Methods \& Classes → PascalCase
-
-
-
-Used meaningful and descriptive class, variable, and method names
-
-
-
-Ensured method names clearly represent their functionality
 
 
 
@@ -344,89 +192,29 @@ Ensured method names clearly represent their functionality
 
 📅 Day 7: December 26, 2025
 
-🧵 Strings, Exceptions \& Mini Project
+
+
+String Handling – Worked with strings, string arrays, and built-in methods.
+
+
+
+Escape Sequences \& ASCII – Learned character representation and formatting.
+
+
+
+Exception Handling – Used try-catch blocks to handle runtime errors.
+
+
+
+Date \& Time – Managed date and time using .NET classes.
+
+
+
+Mini Project – Applied concepts by building a console-based Snake and Ladder game.
 
 
 
 
-
-Topics Covered:
-
-
-
-C# Strings, String Arrays \& Escape Sequences
-
-
-
-String Input, Parameters \& Built-in Methods
-
-
-
-ASCII Character Codes
-
-
-
-C# Exceptions (Checked \& Unchecked)
-
-
-
-Built-in Functions: Random, Math
-
-
-
-Date \& Time Handling in .NET ⏰
-
-
-
-Code Organization Best Practices
-
-
-
-Snake and Ladder Game (Console) 🎲🐍
-
-
-
-What I Learned: 📚
-
-
-
-Working with strings and string methods efficiently
-
-
-
-Handling errors using exception hierarchy ⚠️
-
-
-
-Using built-in classes for logic and calculations
-
-
-
-Managing date and time in .NET
-
-
-
-Writing clean, modular code using methods
-
-
-
-Applying concepts by building a game
-
-
-
-Coding Standards Followed: ✅
-
-
-
-Used variables for inputs, fixed values, and results
-
-
-
-Used methods instead of writing logic in Main()
-
-
-
-Followed proper naming conventions and structure
 
 
 
@@ -434,65 +222,29 @@ Followed proper naming conventions and structure
 
 📅 Day 8: December 29, 2025
 
-🧠 OOP Basics \& Scenario-Based Problems
+
+
+Procedural vs OOP – Compared procedural programming with object-oriented approach.
+
+
+
+Classes \& Objects – Created classes and objects for problem solving.
+
+
+
+String-Based Problems – Solved formatting and text analysis scenarios.
+
+
+
+Array-Based Problems – Analyzed 2D data like temperature and student scores.
+
+
+
+Edge Case Handling – Managed invalid and boundary inputs effectively.
 
 
 
 
-
-Topics Covered:
-
-
-
-Procedural vs Object-Oriented Programming
-
-
-
-Class and Object Concepts
-
-
-
-Scenario-Based Problem Solving
-
-
-
-What I Practiced: 📚
-
-
-
-String – Sentence Formatter: correcting spacing, capitalization, and extra spaces
-
-
-
-Text Analysis: word count, longest word, word replacement, edge case handling
-
-
-
-2D Array Problem: analyzing weekly temperature data (hottest, coldest, averages)
-
-
-
-Student Scores Program: average, highest/lowest scores, above-average analysis with input validation
-
-
-
-Skills Gained: ✅
-
-
-
-Applying OOP concepts to real-world problems
-
-
-
-Writing reusable methods instead of main-heavy code
-
-
-
-Handling invalid and edge-case inputs
-
-
-
-Strengthening logic using arrays, strings, and conditions
 
 
 
@@ -500,57 +252,27 @@ Strengthening logic using arrays, strings, and conditions
 
 📅 Day 9: December 30, 2025
 
-🏗️ Constructors \& OOP Concepts
+
+
+Constructors – Used constructors for initializing object data.
 
 
 
-
-
-Topics Covered:
-
-
-
-C# Constructors
+Instance vs Class Variables – Understood difference between object-level and shared data.
 
 
 
-Instance vs Class Variables
+Access Modifiers – Controlled data access using public, private, and protected.
 
 
 
-Access Modifiers (public, private, protected)
+Library Management System – Implemented book storage, search, and issue/return logic.
 
 
 
-What I Practiced: 📚
+Quiz Grader Program – Compared answers, calculated scores, and generated feedback.
 
 
-
-Library Management System: storing books in arrays, partial title search, checkout \& return status handling 📚
-
-
-
-EduQuiz – Student Quiz Grader: comparing answers using string arrays, score calculation, feedback, and pass/fail logic 📝
-
-
-
-Skills Gained: ✅
-
-
-
-Using constructors for object initialization
-
-
-
-Understanding data access using access modifiers
-
-
-
-Applying OOP concepts in real-world scenarios
-
-
-
-Writing modular code using methods and arrays
 
 
 
@@ -558,67 +280,213 @@ Writing modular code using methods and arrays
 
 📅 Day 10: December 31, 2025
 
-🧩 C# Keywords \& Scenario-Based Problems
+
+
+this Keyword – Used this to differentiate between fields and parameters.
+
+
+
+static Keyword – Created utility-style methods without object creation.
+
+
+
+sealed Keyword – Restricted inheritance where required.
+
+
+
+is Operator – Performed type checking safely.
+
+
+
+Real-World Programs – Built Bank Account Manager, Math Utility Class, and Invoice Generator.
 
 
 
 
 
-Topics Covered:
+
+
+📅 Day 11: January 1, 2026
 
 
 
-this keyword
+Classes vs Objects – Understood the difference between a class as a blueprint and an object as its instance.
 
 
 
-static keyword
+UML Basics – Learned Class Diagrams, Object Diagrams, and Sequence Diagrams.
 
 
 
-sealed keyword
+Scenario-Based Assignment – Built a Cafeteria Menu App using arrays and methods.
 
 
 
-is operator
+Arrays \& Methods – Stored menu items in a string\[] and used DisplayMenu() and GetItemByIndex().
 
 
 
-What I Practiced: 📚
+User Input Handling – Allowed users to select menu items using index values.
 
 
 
-Bank Account Manager: deposit, withdraw, balance check with overdraft prevention using classes and methods 🏦
 
 
 
-Math Utility Class: factorial, prime check, GCD, Fibonacci using reusable static methods 🔢
+
+📅 Day 12: January 2, 2026
 
 
 
-Invoice Generator: string parsing, task extraction, and total calculation using methods 💼
+Inheritance – Learned the concept of inheritance and its role in code reusability.
 
 
 
-Skills Gained: ✅
+Types of Inheritance – Studied Single Level, Multilevel, and Hierarchical inheritance with examples.
 
 
 
-Using this for clarity between fields and parameters
+Key Features – Understood method overriding, constructor inheritance, and access modifiers in inheritance.
 
 
 
-Applying static methods for utility logic
+Polymorphism – Learned how inheritance supports polymorphic behavior.
 
 
 
-Restricting inheritance using sealed
+Scenario-Based Assignments –
+
+Built a Bus Route Distance Tracker using a while loop and total distance calculation.
+
+Implemented a Festival Lucky Draw program using loops, if conditions, modulus operator, and continue for invalid inputs.
 
 
 
-Type checking using is operator
 
 
 
-Writing modular, method-driven, real-world programs
+
+📅 Day 13: January 5, 2026
+
+
+
+Encapsulation – Used properties to protect and manage class data securely.
+
+
+
+Polymorphism – Implemented method overriding to achieve runtime behavior changes.
+
+
+
+Abstraction – Worked with interfaces and abstract classes to define common contracts.
+
+
+
+Interfaces \& Abstract Classes – Understood when to use interfaces vs abstract base classes.
+
+
+
+Scenario-Based Assignments –
+
+Built a Hospital Patient Management System applying encapsulation, inheritance, abstraction, and polymorphism.
+
+Developed a Vehicle Rental Application using protected members and an IRentable interface for rent calculation.
+
+
+
+
+
+
+
+📅 Day 14: January 6, 2026
+
+
+
+Inheritance \& Polymorphism – Designed systems using base classes and derived classes.
+
+
+
+Interfaces – Implemented multiple interfaces to represent different behaviors.
+
+
+
+Scenario-Based Assignments –
+
+Built a Bird Sanctuary System using inheritance, interfaces (IFlyable, ISwimmable), arrays, and polymorphism with interface checks.
+
+Developed a Customer Service Call Log Manager using arrays, filtering by time range, keyword search, and well-defined methods (AddCallLog(), SearchByKeyword(), FilterByTime()).
+
+
+
+
+
+
+
+📅 Day 15: January 7, 2026
+
+
+
+Data Structures – Learned the basics of data structures and their importance in efficient data management.
+
+
+
+Types of Data Structures – Studied different types of data structures used in C#, focusing on linear structures.
+
+
+
+Linked Lists – Understood Singly Linked List, Doubly Linked List, and Circular Linked List concepts and operations.
+
+
+
+Scenario-Based Problems – Solved attached problems by applying linked list concepts for insertion, deletion, and traversal.
+
+
+
+
+
+
+
+📅 Day 16: January 8, 2026
+
+
+
+Stacks \& Queues – Learned stack and queue data structures and their working principles.
+
+
+
+HashMap \& Hashing – Understood key-value storage using HashMap and basics of hashing functions.
+
+
+
+OOP Concepts – Revised object-oriented design with interfaces and polymorphism.
+
+
+
+Scenario-Based Assignment –
+
+Built a Smart Home Automation System using appliances like Light, Fan, and AC, implemented IControllable interface, and applied polymorphism for different turn-on and turn-off behaviors.
+
+
+
+
+
+
+
+📅 Day 17: January 9, 2026
+
+
+
+Sorting Algorithms – Studied Bubble Sort, Insertion Sort, Merge Sort, and Quick Sort with use cases.
+
+
+
+Algorithm Comparison – Understood time complexity and performance differences of sorting techniques.
+
+
+
+Scenario-Based Assignments –
+
+Built FitTrack – Fitness Tracker using OOP concepts with UserProfile, Workout, ITrackable, and different workout types implementing polymorphism.
+
+Implemented ATM Dispenser Logic using suitable data structures to calculate the minimum number of currency notes, handle note removal, and provide fallback combinations when exact change is not possible.
 
