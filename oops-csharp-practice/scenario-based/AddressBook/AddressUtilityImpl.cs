@@ -180,6 +180,42 @@ namespace AddressBook
             Console.WriteLine("Total contacts found: " + countResult);
         }
 		
+		//UC-10: Sort Contacts Alphabetically
+		public void SortContactsByName()
+        {
+            if (currentBookIndex == -1)
+            {
+                Console.WriteLine("No Address Book selected");
+                return;
+            }
+
+            int n = contactCount[currentBookIndex];
+
+            if (n <= 1)
+            {
+                Console.WriteLine("Not enough contacts to sort");
+                return;
+            }
+
+            for (int i = 0; i < n - 1; i++)
+            {
+                for (int j = 0; j < n - i - 1; j++)
+                {
+                    string name1 = addressBooks[currentBookIndex, j].FirstName;
+                    string name2 = addressBooks[currentBookIndex, j + 1].FirstName;
+
+                    if (string.Compare(name1, name2) > 0)
+                    {
+                        Contact temp = addressBooks[currentBookIndex, j];
+                        addressBooks[currentBookIndex, j] = addressBooks[currentBookIndex, j + 1];
+                        addressBooks[currentBookIndex, j + 1] = temp;
+                    }
+                }
+            }
+
+            Console.WriteLine("Contacts sorted alphabetically by name");
+        }
+		
         // UC-2
         public void EditContact()
         {
