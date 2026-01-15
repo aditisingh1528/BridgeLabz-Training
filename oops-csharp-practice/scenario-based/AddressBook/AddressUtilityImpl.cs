@@ -60,8 +60,8 @@ namespace AddressBook
 
             Console.WriteLine("Enter Last Name:");
             string lastName = Console.ReadLine();
-
-            // 🔴 UC-6: Duplicate Check
+			
+			//UC-6
             for (int i = 0; i < contactCount[currentBookIndex]; i++)
             {
                 if (addressBooks[currentBookIndex, i].FirstName.Equals(firstName)
