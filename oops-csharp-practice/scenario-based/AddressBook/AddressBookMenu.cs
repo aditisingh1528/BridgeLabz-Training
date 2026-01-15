@@ -14,8 +14,9 @@ namespace AddressBook
             {
                 Console.WriteLine("\n1. Add Contact");
                 Console.WriteLine("2. Edit Contact");
-                Console.WriteLine("3. Display Contact");
-                Console.WriteLine("4. Exit");
+                Console.WriteLine("3. Delete Contact");
+                Console.WriteLine("4. Display Contact");
+                Console.WriteLine("5. Exit");
 
                 Console.WriteLine("Enter a choice: ");
                 int choice = int.Parse(Console.ReadLine());
@@ -31,10 +32,14 @@ namespace AddressBook
                         break;
 
                     case 3:
-                        addressService.DisplayContact();
+                        addressService.DeleteContact();
                         break;
 
                     case 4:
+                        addressService.DisplayContact();
+                        break;
+
+                    case 5:
                         return;
                 }
             }

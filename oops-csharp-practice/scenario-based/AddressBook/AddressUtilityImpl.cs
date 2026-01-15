@@ -4,11 +4,20 @@ namespace AddressBook
 {
     internal class AddressUtilityImpl : IAddressBook
     {
-        private Contact contact = new Contact();
+        private Contact[] contacts = new Contact[10];
+        private int count = 0;
 
         // UC-1: Add Contact
         public void AddContact()
         {
+            if (count >= contacts.Length)
+            {
+                Console.WriteLine("Address Book is full");
+                return;
+            }
+
+            Contact contact = new Contact();
+
             Console.WriteLine("Enter First Name:");
             contact.FirstName = Console.ReadLine();
 
@@ -33,47 +42,88 @@ namespace AddressBook
             Console.WriteLine("Enter Email:");
             contact.Email = Console.ReadLine();
 
+            contacts[count] = contact;
+            count++;
+
             Console.WriteLine("Contact Added Successfully");
         }
 
-        // UC-2: Edit Contact using First Name
+        // UC-2: Edit Contact by First Name
         public void EditContact()
         {
             Console.WriteLine("Enter First Name to Edit:");
             string name = Console.ReadLine();
 
-            if (contact.FirstName != null && contact.FirstName.Equals(name))
+            for (int i = 0; i < count; i++)
             {
-                Console.WriteLine("Enter New Address:");
-                contact.Address = Console.ReadLine();
+                if (contacts[i].FirstName.Equals(name))
+                {
+                    Console.WriteLine("Enter New Address:");
+                    contacts[i].Address = Console.ReadLine();
 
-                Console.WriteLine("Enter New City:");
-                contact.City = Console.ReadLine();
+                    Console.WriteLine("Enter New City:");
+                    contacts[i].City = Console.ReadLine();
 
-                Console.WriteLine("Enter New State:");
-                contact.State = Console.ReadLine();
+                    Console.WriteLine("Enter New State:");
+                    contacts[i].State = Console.ReadLine();
 
-                Console.WriteLine("Enter New Zip:");
-                contact.Zip = Console.ReadLine();
+                    Console.WriteLine("Enter New Zip:");
+                    contacts[i].Zip = Console.ReadLine();
 
-                Console.WriteLine("Enter New Phone Number:");
-                contact.PhoneNumber = Console.ReadLine();
+                    Console.WriteLine("Enter New Phone Number:");
+                    contacts[i].PhoneNumber = Console.ReadLine();
 
-                Console.WriteLine("Enter New Email:");
-                contact.Email = Console.ReadLine();
+                    Console.WriteLine("Enter New Email:");
+                    contacts[i].Email = Console.ReadLine();
 
-                Console.WriteLine("Contact Updated Successfully");
+                    Console.WriteLine("Contact Updated Successfully");
+                    return;
+                }
             }
-            else
+
+            Console.WriteLine("Contact Not Found");
+        }
+
+        // UC-3: Delete Contact by First Name
+        public void DeleteContact()
+        {
+            Console.WriteLine("Enter First Name to Delete:");
+            string name = Console.ReadLine();
+
+            for (int i = 0; i < count; i++)
             {
-                Console.WriteLine("Contact Not Found");
+                if (contacts[i].FirstName.Equals(name))
+                {
+                    // shift elements left
+                    for (int j = i; j < count - 1; j++)
+                    {
+                        contacts[j] = contacts[j + 1];
+                    }
+
+                    contacts[count - 1] = null;
+                    count--;
+
+                    Console.WriteLine("Contact Deleted Successfully");
+                    return;
+                }
             }
+
+            Console.WriteLine("Contact Not Found");
         }
 
         public void DisplayContact()
         {
-            Console.WriteLine("\n--- Contact Details ---");
-            Console.WriteLine(contact);
+            if (count == 0)
+            {
+                Console.WriteLine("No contacts to display");
+                return;
+            }
+
+            for (int i = 0; i < count; i++)
+            {
+                Console.WriteLine("\n--- Contact ---");
+                Console.WriteLine(contacts[i]);
+            }
         }
     }
 }

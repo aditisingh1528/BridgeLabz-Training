@@ -2,8 +2,9 @@ namespace AddressBook
 {
     interface IAddressBook
     {
-        void AddContact(); // UC-1
-        void EditContact(); // UC-2
+        void AddContact();
+        void EditContact();
+        void DeleteContact();
         void DisplayContact();
     }
 }
