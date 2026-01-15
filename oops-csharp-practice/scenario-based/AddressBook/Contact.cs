@@ -60,7 +60,26 @@ namespace AddressBook
             get { return email; }
             set { email = value; }
         }
+		
+		
+		 // UC-7: Override Equals
+        public override bool Equals(object obj)
+        {
+            if (obj == null || !(obj is Contact))
+                return false;
 
+            Contact other = (Contact)obj;
+
+            return this.FirstName.Equals(other.FirstName)
+                && this.LastName.Equals(other.LastName);
+        }
+
+        public override int GetHashCode()
+        {
+            return (FirstName + LastName).GetHashCode();
+        }
+		
+		
         public override string ToString()
         {
             return "Name : " + firstName + " " + lastName +

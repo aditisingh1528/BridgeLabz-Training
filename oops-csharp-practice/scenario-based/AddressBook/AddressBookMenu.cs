@@ -17,8 +17,9 @@ namespace AddressBook
                 Console.WriteLine("3. Edit Contact");
                 Console.WriteLine("4. Delete Contact");
                 Console.WriteLine("5. Add Multiple Contacts");
-                Console.WriteLine("6. Display Contact");
-                Console.WriteLine("7. Exit");
+                Console.WriteLine("6. Search Person by City or State");
+                Console.WriteLine("7. Display Contact");
+                Console.WriteLine("8. Exit");
 
                 Console.WriteLine("Enter a choice: ");
                 int choice = int.Parse(Console.ReadLine());
@@ -41,9 +42,12 @@ namespace AddressBook
                         addressService.AddMultipleContacts();
                         break;
                     case 6:
-                        addressService.DisplayContact();
+                        addressService.SearchPersonByCityOrState();
                         break;
                     case 7:
+                        addressService.DisplayContact();
+                        break;
+                    case 8:
                         return;
                 }
             }

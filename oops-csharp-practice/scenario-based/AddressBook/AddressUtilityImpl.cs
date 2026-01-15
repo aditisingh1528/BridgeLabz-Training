@@ -112,6 +112,42 @@ namespace AddressBook
             }
             while (choice == 'y' || choice == 'Y');
         }
+		
+		public void SearchPersonByCityOrState()
+        {
+            Console.WriteLine("Search by:");
+            Console.WriteLine("1. City");
+            Console.WriteLine("2. State");
+
+            Console.WriteLine("Enter a choice: ");
+            int choice = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter value to search:");
+            string value = Console.ReadLine();
+
+            bool found = false;
+
+            for (int i = 0; i < bookCount; i++)
+            {
+                for (int j = 0; j < contactCount[i]; j++)
+                {
+                    Contact contact = addressBooks[i, j];
+
+                    if ((choice == 1 && contact.City.Equals(value)) ||
+                        (choice == 2 && contact.State.Equals(value)))
+                    {
+                        Console.WriteLine("\nAddress Book: " + addressBookNames[i]);
+                        Console.WriteLine(contact);
+                        found = true;
+                    }
+                }
+            }
+
+            if (!found)
+            {
+                Console.WriteLine("No contacts found");
+            }
+        }
 
         // UC-2
         public void EditContact()
