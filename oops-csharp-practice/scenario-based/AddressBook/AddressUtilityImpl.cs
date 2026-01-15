@@ -4,25 +4,77 @@ namespace AddressBook
 {
     internal class AddressUtilityImpl : IAddressBook
     {
-        private Contact[] contacts = new Contact[10];
-        private int count = 0;
+        private string[] addressBookNames = new string[5];
+        private Contact[,] addressBooks = new Contact[5, 10];
+        private int[] contactCount = new int[5];
 
-        // UC-1: Add single contact
+        private int bookCount = 0;
+        private int currentBookIndex = -1;
+
+        // UC-5
+        public void CreateAddressBook()
+        {
+            if (bookCount >= addressBookNames.Length)
+            {
+                Console.WriteLine("Maximum Address Books reached");
+                return;
+            }
+
+            Console.WriteLine("Enter Address Book Name:");
+            string name = Console.ReadLine();
+
+            for (int i = 0; i < bookCount; i++)
+            {
+                if (addressBookNames[i].Equals(name))
+                {
+                    Console.WriteLine("Address Book already exists");
+                    return;
+                }
+            }
+
+            addressBookNames[bookCount] = name;
+            contactCount[bookCount] = 0;
+            currentBookIndex = bookCount;
+            bookCount++;
+
+            Console.WriteLine("Address Book Created and Selected");
+        }
+
+        // UC-1 + UC-6 (Duplicate Check)
         public void AddContact()
         {
-            if (count >= contacts.Length)
+            if (currentBookIndex == -1)
+            {
+                Console.WriteLine("Please create an Address Book first");
+                return;
+            }
+
+            if (contactCount[currentBookIndex] >= 10)
             {
                 Console.WriteLine("Address Book is full");
                 return;
             }
 
-            Contact contact = new Contact();
-
             Console.WriteLine("Enter First Name:");
-            contact.FirstName = Console.ReadLine();
+            string firstName = Console.ReadLine();
 
             Console.WriteLine("Enter Last Name:");
-            contact.LastName = Console.ReadLine();
+            string lastName = Console.ReadLine();
+
+            // 🔴 UC-6: Duplicate Check
+            for (int i = 0; i < contactCount[currentBookIndex]; i++)
+            {
+                if (addressBooks[currentBookIndex, i].FirstName.Equals(firstName)
+                    && addressBooks[currentBookIndex, i].LastName.Equals(lastName))
+                {
+                    Console.WriteLine("Duplicate contact found. Contact not added.");
+                    return;
+                }
+            }
+
+            Contact contact = new Contact();
+            contact.FirstName = firstName;
+            contact.LastName = lastName;
 
             Console.WriteLine("Enter Address:");
             contact.Address = Console.ReadLine();
@@ -42,54 +94,43 @@ namespace AddressBook
             Console.WriteLine("Enter Email:");
             contact.Email = Console.ReadLine();
 
-            contacts[count] = contact;
-            count++;
+            addressBooks[currentBookIndex, contactCount[currentBookIndex]] = contact;
+            contactCount[currentBookIndex]++;
 
             Console.WriteLine("Contact Added Successfully");
         }
 
-        // UC-4: Add multiple contacts
+        // UC-4
         public void AddMultipleContacts()
         {
             char choice;
             do
             {
                 AddContact();
-
                 Console.WriteLine("Do you want to add another contact? (y/n)");
                 choice = char.Parse(Console.ReadLine());
-
-            } while (choice == 'y' || choice == 'Y');
+            }
+            while (choice == 'y' || choice == 'Y');
         }
 
-        // UC-2: Edit contact
+        // UC-2
         public void EditContact()
         {
+            if (currentBookIndex == -1)
+            {
+                Console.WriteLine("No Address Book selected");
+                return;
+            }
+
             Console.WriteLine("Enter First Name to Edit:");
             string name = Console.ReadLine();
 
-            for (int i = 0; i < count; i++)
+            for (int i = 0; i < contactCount[currentBookIndex]; i++)
             {
-                if (contacts[i].FirstName.Equals(name))
+                if (addressBooks[currentBookIndex, i].FirstName.Equals(name))
                 {
-                    Console.WriteLine("Enter New Address:");
-                    contacts[i].Address = Console.ReadLine();
-
                     Console.WriteLine("Enter New City:");
-                    contacts[i].City = Console.ReadLine();
-
-                    Console.WriteLine("Enter New State:");
-                    contacts[i].State = Console.ReadLine();
-
-                    Console.WriteLine("Enter New Zip:");
-                    contacts[i].Zip = Console.ReadLine();
-
-                    Console.WriteLine("Enter New Phone Number:");
-                    contacts[i].PhoneNumber = Console.ReadLine();
-
-                    Console.WriteLine("Enter New Email:");
-                    contacts[i].Email = Console.ReadLine();
-
+                    addressBooks[currentBookIndex, i].City = Console.ReadLine();
                     Console.WriteLine("Contact Updated Successfully");
                     return;
                 }
@@ -98,24 +139,29 @@ namespace AddressBook
             Console.WriteLine("Contact Not Found");
         }
 
-        // UC-3: Delete contact
+        // UC-3
         public void DeleteContact()
         {
+            if (currentBookIndex == -1)
+            {
+                Console.WriteLine("No Address Book selected");
+                return;
+            }
+
             Console.WriteLine("Enter First Name to Delete:");
             string name = Console.ReadLine();
 
-            for (int i = 0; i < count; i++)
+            for (int i = 0; i < contactCount[currentBookIndex]; i++)
             {
-                if (contacts[i].FirstName.Equals(name))
+                if (addressBooks[currentBookIndex, i].FirstName.Equals(name))
                 {
-                    for (int j = i; j < count - 1; j++)
+                    for (int j = i; j < contactCount[currentBookIndex] - 1; j++)
                     {
-                        contacts[j] = contacts[j + 1];
+                        addressBooks[currentBookIndex, j] =
+                            addressBooks[currentBookIndex, j + 1];
                     }
 
-                    contacts[count - 1] = null;
-                    count--;
-
+                    contactCount[currentBookIndex]--;
                     Console.WriteLine("Contact Deleted Successfully");
                     return;
                 }
@@ -126,16 +172,22 @@ namespace AddressBook
 
         public void DisplayContact()
         {
-            if (count == 0)
+            if (currentBookIndex == -1)
+            {
+                Console.WriteLine("No Address Book selected");
+                return;
+            }
+
+            if (contactCount[currentBookIndex] == 0)
             {
                 Console.WriteLine("No contacts to display");
                 return;
             }
 
-            for (int i = 0; i < count; i++)
+            for (int i = 0; i < contactCount[currentBookIndex]; i++)
             {
                 Console.WriteLine("\n--- Contact ---");
-                Console.WriteLine(contacts[i]);
+                Console.WriteLine(addressBooks[currentBookIndex, i]);
             }
         }
     }

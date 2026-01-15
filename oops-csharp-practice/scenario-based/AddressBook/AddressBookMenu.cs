@@ -12,12 +12,13 @@ namespace AddressBook
 
             while (true)
             {
-                Console.WriteLine("\n1. Add Contact");
-                Console.WriteLine("2. Edit Contact");
-                Console.WriteLine("3. Delete Contact");
-                Console.WriteLine("4. Add Multiple Contacts");
-                Console.WriteLine("5. Display Contact");
-                Console.WriteLine("6. Exit");
+                Console.WriteLine("\n1. Create Address Book");
+                Console.WriteLine("2. Add Contact");
+                Console.WriteLine("3. Edit Contact");
+                Console.WriteLine("4. Delete Contact");
+                Console.WriteLine("5. Add Multiple Contacts");
+                Console.WriteLine("6. Display Contact");
+                Console.WriteLine("7. Exit");
 
                 Console.WriteLine("Enter a choice: ");
                 int choice = int.Parse(Console.ReadLine());
@@ -25,26 +26,24 @@ namespace AddressBook
                 switch (choice)
                 {
                     case 1:
+                        addressService.CreateAddressBook();
+                        break;
+                    case 2:
                         addressService.AddContact();
                         break;
-
-                    case 2:
+                    case 3:
                         addressService.EditContact();
                         break;
-
-                    case 3:
+                    case 4:
                         addressService.DeleteContact();
                         break;
-
-                    case 4:
+                    case 5:
                         addressService.AddMultipleContacts();
                         break;
-
-                    case 5:
+                    case 6:
                         addressService.DisplayContact();
                         break;
-
-                    case 6:
+                    case 7:
                         return;
                 }
             }
