@@ -7,7 +7,7 @@ namespace AddressBook
         private Contact[] contacts = new Contact[10];
         private int count = 0;
 
-        // UC-1: Add Contact
+        // UC-1: Add single contact
         public void AddContact()
         {
             if (count >= contacts.Length)
@@ -48,7 +48,21 @@ namespace AddressBook
             Console.WriteLine("Contact Added Successfully");
         }
 
-        // UC-2: Edit Contact by First Name
+        // UC-4: Add multiple contacts
+        public void AddMultipleContacts()
+        {
+            char choice;
+            do
+            {
+                AddContact();
+
+                Console.WriteLine("Do you want to add another contact? (y/n)");
+                choice = char.Parse(Console.ReadLine());
+
+            } while (choice == 'y' || choice == 'Y');
+        }
+
+        // UC-2: Edit contact
         public void EditContact()
         {
             Console.WriteLine("Enter First Name to Edit:");
@@ -84,7 +98,7 @@ namespace AddressBook
             Console.WriteLine("Contact Not Found");
         }
 
-        // UC-3: Delete Contact by First Name
+        // UC-3: Delete contact
         public void DeleteContact()
         {
             Console.WriteLine("Enter First Name to Delete:");
@@ -94,7 +108,6 @@ namespace AddressBook
             {
                 if (contacts[i].FirstName.Equals(name))
                 {
-                    // shift elements left
                     for (int j = i; j < count - 1; j++)
                     {
                         contacts[j] = contacts[j + 1];
