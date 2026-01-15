@@ -18,8 +18,9 @@ namespace AddressBook
                 Console.WriteLine("4. Delete Contact");
                 Console.WriteLine("5. Add Multiple Contacts");
                 Console.WriteLine("6. Search Person by City or State");
-                Console.WriteLine("7. Display Contact");
-                Console.WriteLine("8. Exit");
+                Console.WriteLine("7. Count by City or State");
+                Console.WriteLine("8. Display Contact");
+                Console.WriteLine("9. Exit");
 
                 Console.WriteLine("Enter a choice: ");
                 int choice = int.Parse(Console.ReadLine());
@@ -45,9 +46,12 @@ namespace AddressBook
                         addressService.SearchPersonByCityOrState();
                         break;
                     case 7:
-                        addressService.DisplayContact();
+                        addressService.CountByCityOrState();
                         break;
                     case 8:
+                        addressService.DisplayContact();
+                        break;
+                    case 9:
                         return;
                 }
             }

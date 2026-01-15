@@ -148,7 +148,38 @@ namespace AddressBook
                 Console.WriteLine("No contacts found");
             }
         }
+		
+		public void CountByCityOrState()
+        {
+            Console.WriteLine("Count by:");
+            Console.WriteLine("1. City");
+            Console.WriteLine("2. State");
 
+            Console.WriteLine("Enter a choice: ");
+            int choice = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter value:");
+            string value = Console.ReadLine();
+
+            int countResult = 0;
+
+            for (int i = 0; i < bookCount; i++)
+            {
+                for (int j = 0; j < contactCount[i]; j++)
+                {
+                    Contact contact = addressBooks[i, j];
+
+                    if ((choice == 1 && contact.City.Equals(value)) ||
+                        (choice == 2 && contact.State.Equals(value)))
+                    {
+                        countResult++;
+                    }
+                }
+            }
+
+            Console.WriteLine("Total contacts found: " + countResult);
+        }
+		
         // UC-2
         public void EditContact()
         {

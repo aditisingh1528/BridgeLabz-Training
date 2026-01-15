@@ -8,6 +8,7 @@ namespace AddressBook
         void DeleteContact();
         void AddMultipleContacts();
         void SearchPersonByCityOrState();   // UC-8
+        void CountByCityOrState();          // UC-9
         void DisplayContact();
     }
 }
