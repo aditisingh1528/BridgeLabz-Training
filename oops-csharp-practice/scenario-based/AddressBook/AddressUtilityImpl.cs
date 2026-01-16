@@ -216,6 +216,72 @@ namespace AddressBook
             Console.WriteLine("Contacts sorted alphabetically by name");
         }
 		
+		// UC-11: Sort by City, State or Zip
+        public void SortContactsByCityStateOrZip()
+        {
+            if (currentBookIndex == -1)
+            {
+                Console.WriteLine("No Address Book selected");
+                return;
+            }
+
+            Console.WriteLine("Sort by:");
+            Console.WriteLine("1. City");
+            Console.WriteLine("2. State");
+            Console.WriteLine("3. Zip");
+
+            Console.WriteLine("Enter a choice: ");
+            int choice = int.Parse(Console.ReadLine());
+
+            int n = contactCount[currentBookIndex];
+
+            if (n <= 1)
+            {
+                Console.WriteLine("Not enough contacts to sort");
+                return;
+            }
+
+            for (int i = 0; i < n - 1; i++)
+            {
+                for (int j = 0; j < n - i - 1; j++)
+                {
+                    string value1 = "";
+                    string value2 = "";
+
+                    if (choice == 1)
+                    {
+                        value1 = addressBooks[currentBookIndex, j].City;
+                        value2 = addressBooks[currentBookIndex, j + 1].City;
+                    }
+                    else if (choice == 2)
+                    {
+                        value1 = addressBooks[currentBookIndex, j].State;
+                        value2 = addressBooks[currentBookIndex, j + 1].State;
+                    }
+                    else if (choice == 3)
+                    {
+                        value1 = addressBooks[currentBookIndex, j].Zip;
+                        value2 = addressBooks[currentBookIndex, j + 1].Zip;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid choice");
+                        return;
+                    }
+
+                    if (string.Compare(value1, value2) > 0)
+                    {
+                        Contact temp = addressBooks[currentBookIndex, j];
+                        addressBooks[currentBookIndex, j] = addressBooks[currentBookIndex, j + 1];
+                        addressBooks[currentBookIndex, j + 1] = temp;
+                    }
+                }
+            }
+
+            Console.WriteLine("Contacts sorted successfully");
+        }
+		
+		
         // UC-2
         public void EditContact()
         {
