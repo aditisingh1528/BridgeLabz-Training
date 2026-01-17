@@ -490,3 +490,162 @@ Built FitTrack – Fitness Tracker using OOP concepts with UserProfile, Workout,
 
 Implemented ATM Dispenser Logic using suitable data structures to calculate the minimum number of currency notes, handle note removal, and provide fallback combinations when exact change is not possible.
 
+
+
+📅 Day 18: January 12, 2026
+
+
+
+Searching Algorithms – Learned and implemented Linear Search and Binary Search with comparisons.
+
+
+
+Algorithm Use Cases – Understood when to use linear vs binary search based on data size and sorting.
+
+
+
+Scenario-Based Assignments –
+
+Solved Metal Factory Pipe Cutting problem to maximize revenue using optimal cut strategies and analyzed loss in non-optimized cuts.
+
+Implemented Custom Furniture Manufacturing logic to suggest best cuts considering revenue and waste constraints.
+
+Designed LoanBuddy – Loan Approval Automation system using OOP concepts like encapsulation, inheritance, interfaces, polymorphism, and EMI calculation logic for different loan types.
+
+
+
+
+
+
+
+📅 Day 19: January 13, 2026
+
+
+
+Runtime Analysis – Understood the need for analyzing program efficiency before optimization.
+
+
+
+Big-O Notation – Learned how Big-O represents time and space growth with input size.
+
+
+
+Complexity Analysis – Studied time complexity, space complexity, and best, worst, and average cases.
+
+
+
+Optimization Guidelines – Learned practical tips for writing optimized and efficient C# code.
+
+
+
+Scenario-Based Assignments –
+
+Built CinemaTime – Movie Schedule Manager using lists for storing movies and showtimes, searching with string.Contains(), formatting output, and converting lists to arrays for reports.
+
+Developed BookBuddy – Digital Bookshelf App using ArrayList operations, alphabetical sorting, author search, and string parsing with split().
+
+
+
+
+
+
+
+📅 Day 20: January 14, 2026
+
+
+
+Mini Project – Worked on Address Book Application up to UC-11.
+
+
+
+OOP Design – Implemented classes like Contact and AddressBook using object-oriented principles.
+
+
+
+Core Features – Added, edited, deleted, and managed multiple contacts using collections.
+
+
+
+Multiple Address Books – Supported multiple address books with unique names using dictionaries.
+
+
+
+Data Handling – Implemented duplicate checks, search by city/state, count contacts, and sorting entries alphabetically by name.
+
+
+
+Code Practices – Followed proper branching, commits per UC, and clean coding standards.
+
+
+
+
+
+
+
+📅 Day 21: January 15, 2026
+
+
+
+OOP Concepts – Applied classes, encapsulation, and abstraction while designing the system.
+
+
+
+Data Structures Application – Used advanced data structures for real-world problem solving.
+
+
+
+Scenario-Based Assignment –
+
+Built BrowserBuddy – Tab History Manager using a Doubly Linked List for back/forward navigation and a Stack for restoring recently closed tabs.
+
+
+
+Navigation \& Memory Handling – Implemented efficient pointer-based navigation and memory-optimized tab management.
+
+
+
+
+
+
+
+📅 Day 22: January 16, 2026
+
+
+
+DSA with OOP – Solved problems using a combination of data structures, OOP concepts, and Core C#.
+
+
+
+Scenario-Based Assignments –
+
+Built TrafficManager – Roundabout Vehicle Flow using a Circular Linked List for vehicles on the roundabout and a Queue for managing incoming vehicles, with proper overflow and underflow handling.
+
+Developed BookShelf – Library Organizer using a HashMap to map genres to LinkedList of books, enabling efficient insert and delete operations, with optional duplicate prevention using a HashSet.
+
+
+
+System Design – Focused on dynamic data handling, efficient memory usage, and clean object-oriented design.
+
+
+
+
+
+
+
+📅 Day 23: January 17, 2026
+
+
+Sorting in Real Scenarios – Applied sorting algorithms based on data size and performance needs.
+
+
+
+Scenario-Based Assignments –
+
+Built FlashDealz – Product Sorting by Discount using Quick Sort to efficiently handle large, unsorted product data during flash sales.
+
+Implemented FitnessTracker – Daily Step Count Ranking using Bubble Sort for small, frequently updated datasets to enable quick real-time re-sorting.
+
+
+
+Algorithm Selection – Learned how choosing the right sorting technique improves performance and user experience.
+
