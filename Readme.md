@@ -635,6 +635,7 @@ System Design – Focused on dynamic data handling, efficient memory usage, and 
 📅 Day 23: January 17, 2026
 
 
+
 Sorting in Real Scenarios – Applied sorting algorithms based on data size and performance needs.
 
 
@@ -648,4 +649,96 @@ Implemented FitnessTracker – Daily Step Count Ranking using Bubble Sort for sm
 
 
 Algorithm Selection – Learned how choosing the right sorting technique improves performance and user experience.
+
+
+
+
+
+
+
+📅 Day 24: January 19, 2026
+
+
+
+Generics in C# – Learned how generics enable type-safe, reusable, and flexible code with compile-time type checking.
+
+
+
+Why Generics – Understood benefits like type safety, code reusability, elimination of explicit casting, and early error detection.
+
+
+
+Type Parameters – Worked with common generic type parameters such as T, E, K, and V, including multiple type parameters.
+
+
+
+Scenario-Based Assignments –
+
+Built ParcelTracker – Delivery Chain Management using a Singly Linked List to track parcel stages, add intermediate checkpoints, and handle missing parcels safely.
+
+Developed ExamProctor – Online Exam Review System using a Stack for question navigation, a HashMap for storing answers, and functions to evaluate and calculate final scores.
+
+
+
+
+
+
+
+📅 Day 25: January 20, 2026
+
+
+
+Collections Framework – Learned the structure and purpose of the C# Collections Framework.
+
+
+
+Collection Hierarchy – Understood List, Set, Queue, Deque, and Map interfaces and their implementations.
+
+
+
+Implementation Comparison – Compared different collection types based on performance, ordering, and use cases.
+
+
+
+Best Practices – Studied real-world usage guidelines for choosing the right collection.
+
+
+
+Scenario-Based Assignments –
+
+Implemented Aadhar Number Sorting System using Radix Sort, followed by Binary Search, while preserving order for numbers with the same prefix.
+
+Built a Password Cracker Simulator using Backtracking to generate combinations, stop on match, and analyze time–space complexity.
+
+
+
+
+
+
+
+📅 Day 26: January 21, 2026
+
+
+
+C# I/O Streams – Learned how input and output streams work for data reading and writing.
+
+
+
+Types of Streams – Studied File Streams, Object Streams, ByteArray Streams, Buffered Streams, and Reader/Writer concepts.
+
+
+
+Key Considerations – Understood performance, buffering, and resource management while working with streams.
+
+
+
+Best Practices – Followed proper stream handling using closing, disposing, and exception safety.
+
+
+
+Scenario-Based Assignments –
+
+Implemented EduResults – Rank Sheet Generator using Merge Sort to merge multiple sorted datasets efficiently with stable ordering.
+
+Built SmartCheckout – Supermarket Billing Queue using a Queue for customer handling and a HashMap for fast price lookup and stock updates.
 
