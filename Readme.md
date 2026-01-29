@@ -742,3 +742,67 @@ Implemented EduResults – Rank Sheet Generator using Merge Sort to merge multip
 
 Built SmartCheckout – Supermarket Billing Queue using a Queue for customer handling and a HashMap for fast price lookup and stock updates.
 
+
+
+
+
+
+
+📅 Day 27: January 22, 2026
+
+
+
+Exception Handling – Learned the importance of handling runtime errors gracefully.
+
+
+
+Types of Exceptions – Studied checked and unchecked exceptions and when they occur.
+
+
+
+Exception Mechanisms – Worked with try-catch, try-catch-finally, try-with-resources, throw, and throws.
+
+
+
+Custom Exceptions – Created user-defined exceptions by extending the Exception class and defining constructors.
+
+
+
+Scenario-Based Assignment –
+
+Built AmbulanceRoute – Emergency Patient Navigation using a Circular Linked List to rotate through hospital units, redirect patients dynamically, and remove units under maintenance safely.
+
+
+
+
+
+
+
+
+
+📅 Day 28: January 23, 2026
+
+
+
+Regex Fundamentals – Learned regex basics including metacharacters and quantifiers.
+
+
+
+Common Patterns – Implemented email validation, password strength checks, and phone number formats.
+
+
+
+C# Regex API – Worked with patterns, matchers, and methods like find(), matches(), and replaceAll().
+
+
+
+Testing with NUnit – Introduced to NUnit framework, annotations, test case structure, and assertions.
+
+
+
+Annotations – Studied built-in annotations, creating custom and advanced annotations, and real-world use cases.
+
+
+
+Reflection – Learned reflection concepts in .NET and how annotations work together with reflection.
+
