@@ -18,50 +18,29 @@ namespace AddressBook
             string name = Console.ReadLine();
 
             if (addressBooks.ContainsKey(name))
-            {
-                Console.WriteLine("Address Book already exists");
-                return;
-            }
+                throw new DuplicateContactException("Address Book already exists");
 
             addressBooks[name] = new List<Contact>();
             currentBookName = name;
 
-            Console.WriteLine("Address Book Created!");
+            Console.WriteLine("Address Book Created");
         }
 
         public void SelectAddressBook()
         {
-            if (addressBooks.Count == 0)
-            {
-                Console.WriteLine("No Address Books available");
-                return;
-            }
-
-            Console.WriteLine("Available Address Books:");
-            foreach (var name in addressBooks.Keys)
-                Console.WriteLine(name);
-
             Console.WriteLine("Enter Address Book Name:");
-            string choice = Console.ReadLine();
+            string name = Console.ReadLine();
 
-            if (!addressBooks.ContainsKey(choice))
-            {
-                Console.WriteLine("Invalid Address Book");
-                return;
-            }
+            if (!addressBooks.ContainsKey(name))
+                throw new AddressBookNotFoundException("Address Book not found");
 
-            currentBookName = choice;
-            Console.WriteLine("Selected Address Book: " + currentBookName);
+            currentBookName = name;
         }
 
-        // UC-1,7
         public void AddContact()
         {
             if (currentBookName == null)
-            {
-                Console.WriteLine("Select Address Book first");
-                return;
-            }
+                throw new AddressBookNotFoundException("Select Address Book first");
 
             Console.WriteLine("Enter First Name:");
             string firstName = Console.ReadLine();
@@ -74,28 +53,16 @@ namespace AddressBook
                 LastName = lastName
             };
 
-            // Duplicate check using Collection
             if (addressBooks[currentBookName].Contains(contact))
-            {
-                Console.WriteLine("Duplicate Contact Found");
-                return;
-            }
+                throw new DuplicateContactException("Duplicate Contact");
 
-            Console.WriteLine("Enter Address:");
-            contact.Address = Console.ReadLine();
             Console.WriteLine("Enter City:");
             contact.City = Console.ReadLine();
             Console.WriteLine("Enter State:");
             contact.State = Console.ReadLine();
-            Console.WriteLine("Enter Zip:");
-            contact.Zip = Console.ReadLine();
-            Console.WriteLine("Enter Phone:");
-            contact.PhoneNumber = Console.ReadLine();
-            Console.WriteLine("Enter Email:");
-            contact.Email = Console.ReadLine();
 
             addressBooks[currentBookName].Add(contact);
-            Console.WriteLine("Contact Added Successfully");
+            Console.WriteLine("Contact Added");
         }
 
         // UC-5
@@ -110,43 +77,35 @@ namespace AddressBook
             } while (choice == 'y' || choice == 'Y');
         }
 
-        // UC-2
+        // UC-3
         public void EditContact()
         {
-            Console.WriteLine("Enter First Name to Edit:");
+            Console.WriteLine("Enter First Name:");
             string name = Console.ReadLine();
 
-            var contact = addressBooks[currentBookName]
-                .FirstOrDefault(c => c.FirstName.Equals(name));
+            Contact contact = addressBooks[currentBookName]
+                .FirstOrDefault(c => c.FirstName == name);
 
             if (contact == null)
-            {
-                Console.WriteLine("Contact Not Found");
-                return;
-            }
+                throw new ContactNotFoundException("Contact not found");
 
             Console.WriteLine("Enter New City:");
             contact.City = Console.ReadLine();
-            Console.WriteLine("Contact Updated");
         }
 
-        // UC-3
+        //UC-4 
         public void DeleteContact()
         {
-            Console.WriteLine("Enter First Name to Delete:");
+            Console.WriteLine("Enter First Name:");
             string name = Console.ReadLine();
 
-            var contact = addressBooks[currentBookName]
-                .FirstOrDefault(c => c.FirstName.Equals(name));
+            Contact contact = addressBooks[currentBookName]
+                .FirstOrDefault(c => c.FirstName == name);
 
             if (contact == null)
-            {
-                Console.WriteLine("Contact Not Found");
-                return;
-            }
+                throw new ContactNotFoundException("Contact not found");
 
             addressBooks[currentBookName].Remove(contact);
-            Console.WriteLine("Contact Deleted");
         }
 
         // UC-8
@@ -207,6 +166,9 @@ namespace AddressBook
             Console.WriteLine("1.City 2.State 3.Zip");
             int choice = int.Parse(Console.ReadLine());
 
+            if (choice < 1 || choice > 3)
+                throw new InvalidInputException("Invalid Sort Option");
+
             if (choice == 1)
                 addressBooks[currentBookName] =
                     addressBooks[currentBookName].OrderBy(c => c.City).ToList();
@@ -216,8 +178,6 @@ namespace AddressBook
             else
                 addressBooks[currentBookName] =
                     addressBooks[currentBookName].OrderBy(c => c.Zip).ToList();
-
-            Console.WriteLine("Sorted Successfully");
         }
 
         public void DisplayContact()
