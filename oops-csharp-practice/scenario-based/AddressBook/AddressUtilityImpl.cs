@@ -11,7 +11,7 @@ namespace AddressBook
         private int bookCount = 0;
         private int currentBookIndex = -1;
 
-        // UC-5
+        // UC-6
         public void CreateAddressBook()
         {
             if (bookCount >= addressBookNames.Length)
@@ -40,7 +40,34 @@ namespace AddressBook
             Console.WriteLine("Address Book Created and Selected");
         }
 
-        // UC-1 + UC-6 (Duplicate Check)
+        public void SelectAddressBook()
+        {
+            if (bookCount == 0)
+            {
+                Console.WriteLine("No Address Books available. Please create one first.");
+                return;
+            }
+
+            Console.WriteLine("Available Address Books:");
+            for (int i = 0; i < bookCount; i++)
+            {
+                Console.WriteLine((i + 1) + ". " + addressBookNames[i]);
+            }
+
+            Console.WriteLine("Select Address Book number:");
+            int choice = int.Parse(Console.ReadLine());
+
+            if (choice < 1 || choice > bookCount)
+            {
+                Console.WriteLine("Invalid selection");
+                return;
+            }
+
+            currentBookIndex = choice - 1;
+            Console.WriteLine("Address Book selected: " + addressBookNames[currentBookIndex]);
+        }
+
+        // UC-1 + UC-7 (Duplicate Check)
         public void AddContact()
         {
             if (currentBookIndex == -1)
@@ -61,7 +88,7 @@ namespace AddressBook
             Console.WriteLine("Enter Last Name:");
             string lastName = Console.ReadLine();
 			
-			//UC-6
+			
             for (int i = 0; i < contactCount[currentBookIndex]; i++)
             {
                 if (addressBooks[currentBookIndex, i].FirstName.Equals(firstName)
@@ -100,7 +127,7 @@ namespace AddressBook
             Console.WriteLine("Contact Added Successfully");
         }
 
-        // UC-4
+        // UC-5
         public void AddMultipleContacts()
         {
             char choice;
@@ -113,6 +140,7 @@ namespace AddressBook
             while (choice == 'y' || choice == 'Y');
         }
 		
+        //UC-8
 		public void SearchPersonByCityOrState()
         {
             Console.WriteLine("Search by:");
@@ -148,7 +176,45 @@ namespace AddressBook
                 Console.WriteLine("No contacts found");
             }
         }
-		
+
+        // UC-9
+        public void ViewPersonsByCityOrState()
+        {
+            Console.WriteLine("View by:");
+            Console.WriteLine("1. City");
+            Console.WriteLine("2. State");
+
+            int choice = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter value:");
+            string value = Console.ReadLine();
+
+            bool found = false;
+
+            for (int i = 0; i < bookCount; i++)
+            {
+                Console.WriteLine("\nAddress Book: " + addressBookNames[i]);
+
+                for (int j = 0; j < contactCount[i]; j++)
+                {
+                    Contact contact = addressBooks[i, j];
+
+                    if ((choice == 1 && contact.City.Equals(value)) ||
+                        (choice == 2 && contact.State.Equals(value)))
+                    {
+                        Console.WriteLine(contact);
+                        found = true;
+                    }
+                }
+            }
+
+            if (!found)
+            {
+                Console.WriteLine("No contacts found");
+            }
+        }
+
+        //UC-10
 		public void CountByCityOrState()
         {
             Console.WriteLine("Count by:");
@@ -180,7 +246,7 @@ namespace AddressBook
             Console.WriteLine("Total contacts found: " + countResult);
         }
 		
-		//UC-10: Sort Contacts Alphabetically
+        //UC-11
 		public void SortContactsByName()
         {
             if (currentBookIndex == -1)
@@ -216,7 +282,7 @@ namespace AddressBook
             Console.WriteLine("Contacts sorted alphabetically by name");
         }
 		
-		// UC-11: Sort by City, State or Zip
+		// UC-12
         public void SortContactsByCityStateOrZip()
         {
             if (currentBookIndex == -1)
