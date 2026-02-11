@@ -19,5 +19,14 @@ namespace AddressBook
         //UC-13
          void WriteAddressBookToFile();
         void ReadAddressBookFromFile();
+
+        //UC-14
+        void WriteAddressBookToCSV();
+        void ReadAddressBookFromCSV();
+
+        // UC-15 
+        void WriteAddressBookToJSON();
+        void ReadAddressBookFromJSON();
+    
     }
 }

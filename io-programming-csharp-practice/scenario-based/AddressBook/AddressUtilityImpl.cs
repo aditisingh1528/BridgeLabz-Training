@@ -247,5 +247,70 @@ namespace AddressBook
 
             Console.WriteLine("Address Book loaded from file successfully");
         }
+
+        //UC-14
+        public void WriteAddressBookToCSV()
+        {
+            if (currentBookName == null)
+                throw new AddressBookNotFoundException("Select Address Book first");
+
+            string fileName = currentBookName + ".csv";
+
+            using (StreamWriter writer = new StreamWriter(fileName))
+            {
+                writer.WriteLine("FirstName,LastName,Address,City,State,Zip,Phone,Email");
+
+                foreach (Contact c in addressBooks[currentBookName])
+                {
+                    writer.WriteLine(
+                        $"{c.FirstName},{c.LastName},{c.Address},{c.City},{c.State},{c.Zip},{c.PhoneNumber},{c.Email}"
+                    );
+                }
+            }
+
+            Console.WriteLine("Address Book written to CSV successfully");
+        }
+
+
+        public void ReadAddressBookFromCSV()
+        {
+            if (currentBookName == null)
+                throw new AddressBookNotFoundException("Select Address Book first");
+
+            string fileName = currentBookName + ".csv";
+
+            if (!File.Exists(fileName))
+            {
+                Console.WriteLine("CSV file does not exist");
+                return;
+            }
+
+            addressBooks[currentBookName].Clear();
+
+            string[] lines = File.ReadAllLines(fileName);
+
+            for (int i = 1; i < lines.Length; i++) //skip header
+            {
+                string[] data = lines[i].Split(',');
+
+                Contact contact = new Contact
+                {
+                    FirstName = data[0],
+                    LastName = data[1],
+                    Address = data[2],
+                    City = data[3],
+                    State = data[4],
+                    Zip = data[5],
+                    PhoneNumber = data[6],
+                    Email = data[7]
+                };
+
+                addressBooks[currentBookName].Add(contact);
+            }
+
+            Console.WriteLine("Address Book loaded from CSV successfully");
+        }
+
+
     }
 }

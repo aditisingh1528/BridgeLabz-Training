@@ -51,7 +51,11 @@ namespace AddressBook
                 Console.WriteLine("10. Display Contacts");
                 Console.WriteLine("11. Write Address Book to File");
                 Console.WriteLine("12. Read Address Book from File");
-                Console.WriteLine("13. Back");
+                Console.WriteLine("13. Write Address Book to CSV");
+                Console.WriteLine("14. Read Address Book from CSV");
+                Console.WriteLine("15. Back");
+
+
 
                 int choice = int.Parse(Console.ReadLine());
 
@@ -77,11 +81,15 @@ namespace AddressBook
                         break;
                     case 10: addressService.DisplayContact();
                         break;
-                    case 11: addressService.WriteAddressBookToFile();
+                    case 11: addressService.WriteAddressBookToFile(); 
                         break;
-                    case 12: addressService.ReadAddressBookFromFile();
+                    case 12: addressService.ReadAddressBookFromFile(); 
                         break;
-                    case 13:
+                    case 13: addressService.WriteAddressBookToCSV(); 
+                        break;
+                    case 14: addressService.ReadAddressBookFromCSV(); 
+                        break;
+                    case 15: 
                         return;
                 }
             }
