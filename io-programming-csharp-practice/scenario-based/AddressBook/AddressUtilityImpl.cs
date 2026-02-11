@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.IO;
+using System.Text.Json;
+
 
 namespace AddressBook
 {
@@ -309,6 +311,49 @@ namespace AddressBook
             }
 
             Console.WriteLine("Address Book loaded from CSV successfully");
+        }
+
+        // UC-15
+        public void WriteAddressBookToJSON()
+        {
+            if (currentBookName == null)
+                throw new AddressBookNotFoundException("Select Address Book first");
+
+            string fileName = currentBookName + ".json";
+
+            var options = new JsonSerializerOptions
+            {
+                WriteIndented = true
+            };
+
+            string jsonData = JsonSerializer.Serialize(
+                addressBooks[currentBookName], options);
+
+            File.WriteAllText(fileName, jsonData);
+
+            Console.WriteLine("Address Book written to JSON successfully");
+        }
+
+        // UC-15
+        public void ReadAddressBookFromJSON()
+        {
+            if (currentBookName == null)
+                throw new AddressBookNotFoundException("Select Address Book first");
+
+            string fileName = currentBookName + ".json";
+
+            if (!File.Exists(fileName))
+            {
+                Console.WriteLine("JSON file does not exist");
+                return;
+            }
+
+            string jsonData = File.ReadAllText(fileName);
+
+            addressBooks[currentBookName] =
+                JsonSerializer.Deserialize<List<Contact>>(jsonData);
+
+            Console.WriteLine("Address Book loaded from JSON successfully");
         }
 
 

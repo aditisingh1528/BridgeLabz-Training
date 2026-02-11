@@ -53,7 +53,10 @@ namespace AddressBook
                 Console.WriteLine("12. Read Address Book from File");
                 Console.WriteLine("13. Write Address Book to CSV");
                 Console.WriteLine("14. Read Address Book from CSV");
-                Console.WriteLine("15. Back");
+                Console.WriteLine("15. Write Address Book to JSON");
+                Console.WriteLine("16. Read Address Book from JSON");
+                Console.WriteLine("17. Back");
+
 
 
 
@@ -89,8 +92,13 @@ namespace AddressBook
                         break;
                     case 14: addressService.ReadAddressBookFromCSV(); 
                         break;
-                    case 15: 
+                    case 15: addressService.WriteAddressBookToJSON(); 
+                        break;
+                    case 16: addressService.ReadAddressBookFromJSON(); 
+                        break;
+                    case 17: 
                         return;
+
                 }
             }
         }
