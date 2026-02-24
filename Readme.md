@@ -10,7 +10,7 @@ This repo serves as a daily learning log where I track my progress across Git, .
 
 Each day documents the topics covered, concepts learned, and skills practiced. 📘✨
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 📅 Day 1: December 17, 2025
 
@@ -30,11 +30,7 @@ Git Initialization – Initialized local repositories using git init.
 
 Version Control Commands – Practiced add, commit, and push for code management
 
-
-
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -60,11 +56,7 @@ Java to C# Conversion – Converted simple Java programs into C# equivalents.
 
 dotnet CLI – Built and ran C# programs using command-line tools.
 
-
-
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -86,11 +78,7 @@ Type Conversion – Practiced implicit and explicit type conversions.
 
 Expression Evaluation – Analyzed how operators work together in expressions.
 
-
-
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -116,11 +104,7 @@ Loop Control – Applied break and continue to control loop flow.
 
 Switch Statements – Used switch for handling multiple conditions cleanly.
 
-
-
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -146,11 +130,7 @@ Length Property – Used Length to determine array size.
 
 2D Arrays – Worked with matrix-style data using multidimensional arrays.
 
-
-
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -176,11 +156,7 @@ Static Methods – Used static methods for utility-style logic.
 
 System.Math Library – Performed calculations using built-in math functions.
 
-
-
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -206,11 +182,7 @@ Date \& Time – Managed date and time using .NET classes.
 
 Mini Project – Applied concepts by building a console-based Snake and Ladder game.
 
-
-
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -236,11 +208,7 @@ Array-Based Problems – Analyzed 2D data like temperature and student scores.
 
 Edge Case Handling – Managed invalid and boundary inputs effectively.
 
-
-
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -266,9 +234,7 @@ Library Management System – Implemented book storage, search, and issue/return
 
 Quiz Grader Program – Compared answers, calculated scores, and generated feedback.
 
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -294,9 +260,7 @@ is Operator – Performed type checking safely.
 
 Real-World Programs – Built Bank Account Manager, Math Utility Class, and Invoice Generator.
 
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -322,9 +286,7 @@ Arrays \& Methods – Stored menu items in a string\[] and used DisplayMenu() an
 
 User Input Handling – Allowed users to select menu items using index values.
 
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -354,9 +316,7 @@ Built a Bus Route Distance Tracker using a while loop and total distance calcula
 
 Implemented a Festival Lucky Draw program using loops, if conditions, modulus operator, and continue for invalid inputs.
 
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -386,9 +346,7 @@ Built a Hospital Patient Management System applying encapsulation, inheritance, 
 
 Developed a Vehicle Rental Application using protected members and an IRentable interface for rent calculation.
 
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -410,9 +368,7 @@ Built a Bird Sanctuary System using inheritance, interfaces (IFlyable, ISwimmabl
 
 Developed a Customer Service Call Log Manager using arrays, filtering by time range, keyword search, and well-defined methods (AddCallLog(), SearchByKeyword(), FilterByTime()).
 
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -434,9 +390,7 @@ Linked Lists – Understood Singly Linked List, Doubly Linked List, and Circular
 
 Scenario-Based Problems – Solved attached problems by applying linked list concepts for insertion, deletion, and traversal.
 
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -460,9 +414,7 @@ Scenario-Based Assignment –
 
 Built a Smart Home Automation System using appliances like Light, Fan, and AC, implemented IControllable interface, and applied polymorphism for different turn-on and turn-off behaviors.
 
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -483,6 +435,8 @@ Scenario-Based Assignments –
 Built FitTrack – Fitness Tracker using OOP concepts with UserProfile, Workout, ITrackable, and different workout types implementing polymorphism.
 
 Implemented ATM Dispenser Logic using suitable data structures to calculate the minimum number of currency notes, handle note removal, and provide fallback combinations when exact change is not possible.
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -506,9 +460,7 @@ Implemented Custom Furniture Manufacturing logic to suggest best cuts considerin
 
 Designed LoanBuddy – Loan Approval Automation system using OOP concepts like encapsulation, inheritance, interfaces, polymorphism, and EMI calculation logic for different loan types.
 
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -538,9 +490,7 @@ Built CinemaTime – Movie Schedule Manager using lists for storing movies and s
 
 Developed BookBuddy – Digital Bookshelf App using ArrayList operations, alphabetical sorting, author search, and string parsing with split().
 
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -570,9 +520,7 @@ Data Handling – Implemented duplicate checks, search by city/state, count cont
 
 Code Practices – Followed proper branching, commits per UC, and clean coding standards.
 
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -596,9 +544,7 @@ Built BrowserBuddy – Tab History Manager using a Doubly Linked List for back/f
 
 Navigation \& Memory Handling – Implemented efficient pointer-based navigation and memory-optimized tab management.
 
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -620,9 +566,7 @@ Developed BookShelf – Library Organizer using a HashMap to map genres to Linke
 
 System Design – Focused on dynamic data handling, efficient memory usage, and clean object-oriented design.
 
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -644,9 +588,7 @@ Implemented FitnessTracker – Daily Step Count Ranking using Bubble Sort for sm
 
 Algorithm Selection – Learned how choosing the right sorting technique improves performance and user experience.
 
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -672,9 +614,7 @@ Built ParcelTracker – Delivery Chain Management using a Singly Linked List to 
 
 Developed ExamProctor – Online Exam Review System using a Stack for question navigation, a HashMap for storing answers, and functions to evaluate and calculate final scores.
 
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -704,9 +644,7 @@ Implemented Aadhar Number Sorting System using Radix Sort, followed by Binary Se
 
 Built a Password Cracker Simulator using Backtracking to generate combinations, stop on match, and analyze time–space complexity.
 
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -736,9 +674,7 @@ Implemented EduResults – Rank Sheet Generator using Merge Sort to merge multip
 
 Built SmartCheckout – Supermarket Billing Queue using a Queue for customer handling and a HashMap for fast price lookup and stock updates.
 
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -766,11 +702,7 @@ Scenario-Based Assignment –
 
 Built AmbulanceRoute – Emergency Patient Navigation using a Circular Linked List to rotate through hospital units, redirect patients dynamically, and remove units under maintenance safely.
 
-
-
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -800,9 +732,7 @@ Annotations – Studied built-in annotations, creating custom and advanced annot
 
 Reflection – Learned reflection concepts in .NET and how annotations work together with reflection.
 
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -836,15 +766,11 @@ Core Components – Worked with \[TestClass], \[TestMethod], assertions, and the
 
 Test Lifecycle – Implemented \[TestInitialize], \[TestCleanup], \[ClassInitialize], \[ClassCleanup], and understood the role of TestContext for runtime test information.
 
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
-
-
-
-
-
-📅📅 Day 30: January 28, 2026
+📅 Day 30: January 28, 2026
 
 
 
@@ -869,8 +795,7 @@ Implemented Bank Account Validation System with proper input validation, excepti
 
 
 Quality Focus – Improved static code analysis, testing standards, and overall project maintainability.
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 📅 Day 31: January 29, 2026
@@ -890,8 +815,7 @@ Built OceanFleet Analytics – Vessel Performance System using OOP principles an
 
 
 Concept Focus – Strengthened object-oriented design, collection handling, data validation, and structured console-based application development.
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 📅 Day 32: January 30, 2026
@@ -915,8 +839,7 @@ Applied vehicle selection logic, tax calculation, rating-based discount, and tot
 
 
 Concept Focus – Strengthened abstract classes, polymorphism, validation patterns, parsing colon-separated input, and structured console-based application design.
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 📅 Day 33: February 2, 2026
@@ -939,11 +862,7 @@ Built FlipKey – ASCII Transformation Utility implementing validation rules, st
 
 Concept Focus – Strengthened clean coding practices, validation handling, ASCII operations, indexing logic, and structured method implementation without modifying the given template.
 
-
-
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -977,11 +896,7 @@ Thread Operations – Practiced thread methods like Start(), Sleep(), Join(), an
 
 Practice Problems – Implemented multi-threading scenarios to understand concurrency and execution flow.
 
-
-
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -1015,11 +930,7 @@ Built Factory Robot Hazard Analyzer system that evaluates industrial robot safet
 
 Concept Focus – Strengthened custom exceptions, validation logic, defensive programming, and structured console-based application design.
 
-
-
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -1053,11 +964,7 @@ Data Processing \& Security – Explored cursors for row-by-row processing and D
 
 Concept Focus – Strengthened database normalization, indexing basics, transactions, performance considerations, and industry-level SQL practices.
 
-
-
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -1087,11 +994,7 @@ Industry Focus – Followed proper database normalization, integrity rules, and 
 
 Project Objective – Strengthened practical SQL skills and treated the implementation as a real-time industry-level application for review readiness.
 
-
-
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -1121,9 +1024,7 @@ Learning Focus – Emphasized not just working code, but understanding design de
 
 Outcome – Strengthened confidence in building structured .NET applications and improved readiness for real-time industry projects and technical reviews.
 
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -1153,11 +1054,7 @@ Hands-on Practice – Implemented connection strings, SqlConnection, SqlCommand,
 
 Concept Focus – Strengthened understanding of connected architecture and real-time database interaction from .NET applications.
 
-
-
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -1183,11 +1080,7 @@ Solved Scenario 3 – Application Activity Archival System using file I/O, annot
 
 Concept Focus – Strengthened OOP design, multithreading, exception handling, file processing, validation, collections, and clean architecture under exam conditions.
 
-
-
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -1231,9 +1124,7 @@ Implemented structured exception handling with try-catch-finally blocks, created
 
 Concept Focus – Strengthened foundational programming, modular design, data handling, memory concepts, and robust error management in a structured project environment.
 
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -1271,11 +1162,7 @@ Failure Handling – Captured invalid data, runtime issues, and sending failures
 
 Design Focus – Ensured loose coupling, extensibility, thread safety, and clean architecture for adding new notification types easily.
 
-
-
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -1288,10 +1175,6 @@ Project – Developed Email Validator – College Admission Portal (EduConnect) 
 
 
 Regex Implementation – Used Pattern and Matcher concepts in C# (Regex) for validating email format.
-
-
-
-Validation Rules – Ensured emails follow username@domain.extension format with allowed characters (alphanumeric, dot, underscore).
 
 
 
@@ -1313,11 +1196,7 @@ Modular Design – Built reusable validation methods with clean separation of lo
 
 Concept Focus – Strengthened Regex validation, annotations, concurrency handling, and structured backend validation logic.
 
-
-
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -1353,11 +1232,7 @@ Healthcare Project – Continued development by refactoring the project into mul
 
 Concept Focus – Strengthened inheritance, polymorphism, factory pattern, object relationships, and multi-file project structuring.
 
-
-
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -1391,11 +1266,7 @@ Testing – Wrote test cases for insufficient balance, concurrent withdrawals, a
 
 Concept Focus – Strengthened transactions, concurrency control, multithreading safety, and real-world banking system design.
 
-
-
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
@@ -1429,11 +1300,7 @@ Documentation – Prepared structured README including project overview, feature
 
 Concept Focus – Strengthened clean architecture, version control discipline, maintainable design, and industry-level coding practices.
 
-
-
-
-
-
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
